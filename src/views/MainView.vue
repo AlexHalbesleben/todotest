@@ -54,6 +54,7 @@ export default class MainView extends Vue_ {
   };
 
   editedTask = new Task();
+  $bvModal: any;
 
   launchModal(task: Task) {
     this.editedTask = task;
